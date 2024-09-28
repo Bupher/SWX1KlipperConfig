@@ -69,6 +69,9 @@ initial_state = off
 bound_services = klipper
 on_when_job_queued = True
 
+[spoolman]
+server = http://spoolman.local:80
+
 [file_manager]
 queue_gcode_uploads = True
 enable_object_processing = True
